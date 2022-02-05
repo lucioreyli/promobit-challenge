@@ -1,0 +1,1 @@
+export const Divisor = () => window.screen.width <= 768 ? <br/> : <> • </>

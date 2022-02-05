@@ -35,8 +35,7 @@ The layout of project is available at [Figma](https://www.figma.com/file/rM7WPqh
 1. Clone this repository.
 2. Run `cd promobit-challenge`.
 3. Run `yarn` to install dependencies.
-4. Create `.env.local` in root directory and add the [`TMDB's API KEY`][apikey] as
-
+4. Create `.env.local` file in root directory and add the [`TMDB's API KEY`][apikey] like:
 ```env
 VITE_TMDB_API_KEY=Insert here your API Key
 ```

@@ -25,7 +25,7 @@ export const Panel = styled.div<{isMobile: boolean}>`
   background-color: ${colors.darkPurple};
   height: ${({isMobile}) => isMobile ? 'auto' : '100vh'};
 
-  width: 100%;
+  width: ${({isMobile}) => isMobile ? 'auto' : '100%'};
 
   align-self: center;
   justify-self: center;

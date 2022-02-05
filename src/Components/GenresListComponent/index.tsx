@@ -1,6 +1,10 @@
 import { TagInterface } from "~/Interfaces/TagInterface"
 
-export const GenresListComponent: React.FC<{ genres: TagInterface[] | undefined}> = ({ genres }) => {
+type Props = { 
+  genres: TagInterface[] | undefined
+}
+
+export const GenresListComponent: React.FC<Props> = ({ genres }) => {
   return(
   <>
     {

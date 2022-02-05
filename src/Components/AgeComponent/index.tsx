@@ -1,4 +1,8 @@
-export const AgeComponent: React.FC<{ certification: string }> = ({ certification }) => {
+type Props = { 
+  certification: string 
+}
+
+export const AgeComponent: React.FC<Props> = ({ certification }) => {
   return (
     <>
       {

@@ -1,4 +1,8 @@
-export const DurationComponent: React.FC<{ runtime: number | null | undefined }> = ({ runtime }) => {
+type Props = { 
+  runtime: number | null | undefined 
+}
+
+export const DurationComponent: React.FC<Props> = ({ runtime }) => {
   return(
     <>
       {
